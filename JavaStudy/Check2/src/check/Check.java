@@ -4,13 +4,9 @@ import constants.Constants;
 
 public class Check {
 	
-	private String firstName;
-	private String lastName;
+	private String firstName = "tsuchiya";
+	private String lastName = "yusuke";
 	
-	public Check() {
-		this.firstName = "tsuchiya";
-		this.lastName = "yusuke";
-	}
 	
 	private void printName(String firstName, String lastName) {
 		System.out.println("printNameメソッド → " + firstName + lastName);
