@@ -28,6 +28,7 @@ public class Check {
 		
 		RobotPet robotPet = new RobotPet(Constants.CHECK_CLASS_R2D2, Constants.CHECK_CLASS_LUKE);
 		robotPet.introduce();
+		
 		}
 
 }
