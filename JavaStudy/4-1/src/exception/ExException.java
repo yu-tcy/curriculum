@@ -65,7 +65,7 @@ public class ExException {
                     // Tips: ご自身で配列を準備してください（使用する配列の型、要素数は自由）
                     // ここへ記述
                     	int[] ArrayInt = new int[2];
-                    	ArrayInt[5] = 2;
+                    	ArrayInt[5] = 21;
                     break;
                     case CONST_EXCEPTION_TRIGER_CAST:
                     String castedStrValue = (String) CONST_OBJ_FOR_CLASS_CAST;
